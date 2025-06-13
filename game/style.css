@@ -1,6 +1,6 @@
 ﻿body {
     font-family: 'Squada One', cursive;
-    background-image: url('img/bg4.png');
+    background-image: url('./img/bg4.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
