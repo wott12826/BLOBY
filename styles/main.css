@@ -447,4 +447,31 @@ body {
   padding-top: 10px;
 }
 
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #C18F5F;
+  white-space: nowrap;
+}
 
+.marquee-content {
+  display: inline-block;
+  animation: scroll-left 30s linear infinite;
+  font-family: 'Changa One', sans-serif;
+  font-size: 50px;
+  color: white;
+}
+
+.marquee-content span {
+  display: inline-block;
+  padding-right: 0px; /* убираем отступ */
+  margin-right: 40px; /* ← вот здесь регулируешь отступ */
+}
+@keyframes scroll-left {
+  from {
+    transform: translateX(0%);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
