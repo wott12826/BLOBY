@@ -588,7 +588,7 @@ body {
 
   .flappy-embed {
     height: 70vh;
-    min-height: 800px;
+    min-height: 900px;
     padding: 0;
   }
   .flappy-embed iframe {
@@ -717,7 +717,7 @@ body {
 
   .flappy-embed {
     height: 55vh;
-    min-height: 500px;
+    min-height: 900px;
     padding: 0;
   }
   .flappy-embed iframe {
@@ -829,7 +829,7 @@ body {
     max-width: 400px;
     margin: 0 auto;
     height: auto;
-    min-height: 320px;
+    min-height: 900px;
     padding: 8px 0;
     border-radius: 16px;
     background: rgba(0,0,0,0.7);
