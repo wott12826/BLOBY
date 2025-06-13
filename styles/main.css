@@ -321,28 +321,34 @@ body {
 
 .bread-card {
   position: relative;
-  width: 500px;
-  max-width: 100%;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
 }
 
 .bread-bg {
   width: 100%;
-  height: auto;
   display: block;
 }
 
 .bread-text {
   position: absolute;
-  bottom: 1%;
-  left: 50%;
-  transform: translateX(-50%);
-  padding: 30px 40px;
+  top: 10%;
+  left: 10%;
   width: 80%;
-  font-family: "Changa One", sans-serif;
-  color: #000;
-  text-align: center;
+  height: 80%;
+  max-width: 80%;
+  max-height: 80%;
+  overflow: auto;
   font-size: 14px;
-  line-height: 1.4;
+  padding: 0;
+  word-break: break-word;
+  box-sizing: border-box;
+  line-height: 1.15;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .bread-text h2 {
@@ -369,15 +375,17 @@ body {
   .how-to-buy-wrapper {
     flex-direction: column;
   }
+  .bread-card {
+    max-width: 320px;
+  }
   .bread-text {
     font-size: 11px;
-    padding: 8px 4px;
-    max-width: 92%;
-    max-height: 85%;
-    overflow: auto;
-    word-break: break-word;
-    box-sizing: border-box;
-    line-height: 1.15;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    max-width: 80%;
+    max-height: 80%;
   }
 }
 .flappy-embed {
@@ -707,13 +715,12 @@ body {
   }
   .bread-text {
     font-size: 11px;
-    padding: 8px 4px;
-    max-width: 92%;
-    max-height: 85%;
-    overflow: auto;
-    word-break: break-word;
-    box-sizing: border-box;
-    line-height: 1.15;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    max-width: 80%;
+    max-height: 80%;
   }
   .bread-text h2 {
     font-size: 1.8rem;
@@ -821,13 +828,12 @@ body {
   }
   .bread-text {
     font-size: 9px;
-    padding: 8px 4px;
-    max-width: 92%;
-    max-height: 85%;
-    overflow: auto;
-    word-break: break-word;
-    box-sizing: border-box;
-    line-height: 1.13;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    max-width: 80%;
+    max-height: 80%;
   }
   .bread-text h2 {
     font-size: 1.5rem;
@@ -932,13 +938,12 @@ body {
   }
   .bread-text {
     font-size: 8px;
-    padding: 6px 2px;
-    max-width: 98%;
+    top: 10%;
+    left: 10%;
+    width: 80%;
+    height: 80%;
+    max-width: 80%;
     max-height: 80%;
-    overflow: auto;
-    word-break: break-word;
-    box-sizing: border-box;
-    line-height: 1.1;
   }
   .bread-text h2 {
     font-size: 1.3rem;
