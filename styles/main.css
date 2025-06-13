@@ -341,7 +341,7 @@ body {
   font-family: "Changa One", sans-serif;
   color: #000;
   text-align: center;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.4;
 }
 
@@ -370,8 +370,9 @@ body {
     flex-direction: column;
   }
   .bread-text {
-    font-size: 14px;
-    top: 8%;
+    font-size: 12px;
+    top: -17%;
+    margin-bottom: 12% !important;
   }
 }
 .flappy-embed {
@@ -473,5 +474,454 @@ body {
   }
   to {
     transform: translateX(-50%);
+  }
+}
+/* ======= Общие адаптивные стили ======= */
+
+@media (max-width: 1200px) {
+  .ca-container {
+    width: 70%;
+  }
+  
+  .dex-embed {
+    left: 5%;
+    width: 400%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .topbar-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .socials {
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .dex-bg {
+    width: 100% !important;
+    height: auto;
+    display: block;
+  }
+  .hero-bg {
+    width: 100%;
+ 
+  }
+  .grid-bg {
+    width: 300% !important;
+    height: auto;
+    display: block;
+  }
+  .ca-container {
+    width: 80%;
+
+    align-items: center;
+    text-align: center;
+    bottom: 50px;
+  }
+
+  .ca-container button {
+    margin-top: 10px;
+  }
+
+  .character-grid h2 {
+    font-size: 2.5rem;
+  }
+
+  .character-grid p {
+    font-size: 1.2rem;
+  }
+
+  .bread-card {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .bread-bg {
+    width: 100%;
+    height: auto;
+    position: static;
+    margin-bottom: 10px;
+  }
+  .bread-text {
+
+    margin-bottom: 40%;
+  }
+  .bread-text h2 {
+    font-size: 2rem;
+  }
+
+  .bread-text li {
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+
+  .dex-embed {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 400px;
+  }
+
+  .how-to-buy-wrapper {
+    flex-direction: column;
+    padding: 30px 20px;
+  }
+
+  .how-buy-left, .how-buy-right {
+    width: 100%;
+  }
+
+  .how-buy-left img {
+    margin-right: 0;
+    height: auto;
+  }
+
+  .flappy-embed iframe {
+    width: 100%;
+    height: 450px;
+  }
+
+  .meme-content p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .custom-divider {
+    height: 40px;
+  }
+
+  .marquee-content {
+    font-size: 40px;
+  }
+
+  .meme-section {
+    height: 100vh;
+    padding: 0;
+  }
+  .meme-content {
+    padding: 40px 10px;
+  }
+  .top-text {
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
+  .bottom-text {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+  }
+  .about {
+    padding: 50px 10px;
+  }
+  .about-title {
+    font-size: 28px;
+  }
+  .about p {
+    font-size: 1.1rem;
+    max-width: 95vw;
+  }
+  .about img {
+    max-width: 80vw;
+    height: auto;
+  }
+  .about-btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .topbar {
+    padding: 10px 15px;
+  }
+
+  .topbar-logo-text {
+    font-size: 1.2rem;
+    padding: 8px 16px;
+  }
+
+  .socials img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 2.5rem;
+  }
+
+  .ca-container {
+    width: 75%;
+    padding: 8px 15px;
+  }
+
+  .ca-text {
+    font-size: 1rem;
+  }
+
+  .character-grid h2 {
+    font-size: 2rem;
+  }
+
+  .character-grid p {
+    font-size: 1rem;
+  }
+
+  .about {
+    padding: 30px 5px;
+  }
+  .about-title {
+    font-size: 22px;
+  }
+  .about p {
+    font-size: 1rem;
+    max-width: 98vw;
+  }
+  .about img {
+    max-width: 95vw;
+    height: auto;
+  }
+  .about-btn {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+  }
+  .bread-text {
+    margin-bottom: 12% !important;
+  }
+  .bread-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .bread-text li {
+    font-size: 0.9rem;
+  }
+
+  .dex-embed {
+    height: 100%;
+  }
+
+  .flappy-embed iframe {
+    height: 400px;
+  }
+
+  .meme-content {
+    padding: 25px 5px;
+  }
+
+  .top-text {
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+
+  .bottom-text {
+    font-size: 0.95rem;
+    margin-bottom: 15px;
+  }
+
+  .marquee-content {
+    font-size: 30px;
+  }
+
+  .meme-section {
+    height: 80vh;
+    padding: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar-logo-text {
+    font-size: 1rem;
+    padding: 6px 12px;
+  }
+
+  .socials img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 2rem;
+  }
+
+  .ca-container {
+    width: 75%;
+    padding: 6px 12px;
+  }
+
+  .ca-text {
+    font-size: 0.9rem;
+  }
+
+  .copy-btn {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .character-grid h2 {
+    font-size: 1.8rem;
+  }
+
+  .character-grid p {
+    font-size: 0.9rem;
+  }
+
+  .about {
+    padding: 18px 2px;
+  }
+  .about-title {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+  }
+  .about p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+  .about img {
+    max-width: 99vw;
+    height: auto;
+  }
+  .about-btn {
+    font-size: 0.85rem;
+    padding: 6px 10px;
+  }
+  .bread-text {
+    font-size: 10px;
+    margin-bottom: 8% !important;
+  }
+  .bread-text h2 {
+    font-size: 1.5rem;
+  }
+
+  .bread-text li {
+    font-size: 0.8rem;
+
+  }
+
+  .dex-embed {
+    height: 100%;
+  }
+
+  .flappy-embed iframe {
+    height: 360px;
+  }
+
+  .meme-content {
+    padding: 12px 2px;
+  }
+
+  .top-text {
+    font-size: 0.95rem;
+    margin-top: 5px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }
+
+  .bottom-text {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+  }
+
+  .marquee-content {
+    font-size: 24px;
+  }
+
+  .meme-section {
+    height: auto;
+    min-height: 60vh;
+    padding: 0;
+  }
+}
+
+/* Добавляем поддержку очень маленьких экранов */
+@media (max-width: 320px) {
+  .topbar-logo-text {
+    font-size: 0.9rem;
+    padding: 5px 10px;
+  }
+
+  .socials img {
+    width: 25px;
+    height: 25px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 1.8rem;
+  }
+
+  .ca-container {
+    padding: 5px 10px;
+  }
+
+  .ca-text {
+    font-size: 0.8rem;
+  }
+
+  .character-grid h2 {
+    font-size: 1.5rem;
+  }
+
+  .character-grid p {
+    font-size: 0.8rem;
+  }
+
+  .about p {
+    font-size: 0.9rem;
+  }
+
+  .about-btn {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+  }
+  .bread-text {
+    margin-bottom: 4% !important;
+  }
+  .bread-text h2 {
+    font-size: 1.3rem;
+  }
+
+  .bread-text li {
+    font-size: 0.75rem;
+  }
+
+  .dex-embed {
+    height: 250px;
+  }
+
+  .flappy-embed iframe {
+    height: 320px;
+  }
+
+  .marquee-content {
+    font-size: 20px;
+  }
+}
+
+/* Добавляем поддержку ландшафтной ориентации на мобильных устройствах */
+@media (max-height: 500px) and (orientation: landscape) {
+  .hero {
+    height: auto;
+    min-height: 100vh;
+  }
+
+  .ca-container {
+    position: relative;
+    bottom: auto;
+    margin: 20px auto;
+  }
+
+  .dex-embed {
+    height: 250px;
+  }
+
+  .flappy-embed iframe {
+    height: 300px;
   }
 }
