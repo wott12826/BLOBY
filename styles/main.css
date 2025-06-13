@@ -370,7 +370,11 @@ body {
     flex-direction: column;
   }
   .bread-text {
-    font-size: 12px;
+    font-size: 11px;
+    padding: 8px 4px;
+    max-width: 92%;
+    word-break: break-word;
+    box-sizing: border-box;
     top: -17%;
     margin-bottom: 12% !important;
   }
@@ -701,7 +705,11 @@ body {
     padding: 8px 14px;
   }
   .bread-text {
-    margin-bottom: 12% !important;
+    font-size: 11px;
+    padding: 8px 4px;
+    max-width: 92%;
+    word-break: break-word;
+    box-sizing: border-box;
   }
   .bread-text h2 {
     font-size: 1.8rem;
@@ -808,8 +816,11 @@ body {
     padding: 6px 10px;
   }
   .bread-text {
-    font-size: 10px;
-    margin-bottom: 8% !important;
+    font-size: 9px;
+    padding: 8px 4px;
+    max-width: 92%;
+    word-break: break-word;
+    box-sizing: border-box;
   }
   .bread-text h2 {
     font-size: 1.5rem;
@@ -913,7 +924,11 @@ body {
     padding: 6px 12px;
   }
   .bread-text {
-    margin-bottom: 4% !important;
+    font-size: 8px;
+    padding: 6px 2px;
+    max-width: 98%;
+    word-break: break-word;
+    box-sizing: border-box;
   }
   .bread-text h2 {
     font-size: 1.3rem;
