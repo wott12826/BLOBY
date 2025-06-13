@@ -373,10 +373,11 @@ body {
     font-size: 11px;
     padding: 8px 4px;
     max-width: 92%;
+    max-height: 85%;
+    overflow: auto;
     word-break: break-word;
     box-sizing: border-box;
-    top: -17%;
-    margin-bottom: 12% !important;
+    line-height: 1.15;
   }
 }
 .flappy-embed {
@@ -708,8 +709,11 @@ body {
     font-size: 11px;
     padding: 8px 4px;
     max-width: 92%;
+    max-height: 85%;
+    overflow: auto;
     word-break: break-word;
     box-sizing: border-box;
+    line-height: 1.15;
   }
   .bread-text h2 {
     font-size: 1.8rem;
@@ -819,8 +823,11 @@ body {
     font-size: 9px;
     padding: 8px 4px;
     max-width: 92%;
+    max-height: 85%;
+    overflow: auto;
     word-break: break-word;
     box-sizing: border-box;
+    line-height: 1.13;
   }
   .bread-text h2 {
     font-size: 1.5rem;
@@ -927,8 +934,11 @@ body {
     font-size: 8px;
     padding: 6px 2px;
     max-width: 98%;
+    max-height: 80%;
+    overflow: auto;
     word-break: break-word;
     box-sizing: border-box;
+    line-height: 1.1;
   }
   .bread-text h2 {
     font-size: 1.3rem;
