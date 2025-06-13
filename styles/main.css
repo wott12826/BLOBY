@@ -586,9 +586,16 @@ body {
     height: auto;
   }
 
+  .flappy-embed {
+    height: 70vh;
+    min-height: 350px;
+    padding: 0;
+  }
   .flappy-embed iframe {
+    height: 350px;
+    min-height: 200px;
     width: 100%;
-    height: 450px;
+    border-radius: 14px;
   }
 
   .meme-content p {
@@ -708,8 +715,16 @@ body {
     height: 100%;
   }
 
+  .flappy-embed {
+    height: 55vh;
+    min-height: 250px;
+    padding: 0;
+  }
   .flappy-embed iframe {
-    height: 400px;
+    height: 250px;
+    min-height: 150px;
+    width: 100%;
+    border-radius: 10px;
   }
 
   .meme-content {
@@ -809,8 +824,16 @@ body {
     height: 100%;
   }
 
+  .flappy-embed {
+    height: 38vh;
+    min-height: 160px;
+    padding: 0;
+  }
   .flappy-embed iframe {
-    height: 360px;
+    height: 160px;
+    min-height: 100px;
+    width: 100%;
+    border-radius: 8px;
   }
 
   .meme-content {
